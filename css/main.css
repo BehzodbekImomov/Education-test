@@ -12,4 +12,73 @@ a{
 .container{
     max-width: 1440px;
     margin:0 auto;
+    padding: 41px 149px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   text-align: center;
+}
+.title{
+    display: flex;
+    gap: 68px;
+}
+.btn{
+    width: 111px;
+height: 42px;
+gap: 0px;
+opacity: 0px;
+border-radius: 15px;
+background-color: #fff;
+}
+.main{
+    display: flex ;
+}
+.batn{
+    width: 262px;
+height: 64px;
+top: 524px;
+left: 148px;
+gap: 0px;
+opacity: 0px;
+border-radius: 15px;
+background-color:  blue;
+display: flex;
+align-items: center;
+margin-top: 42px;
+}
+.batn:active{
+    color: blue;
+    background-color: #fff;
+}
+.h2{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.kitob{
+    position: relative;
+    top: -420px;
+    left: 600px;
+    z-index: 1000;
+}
+
+ul li a{
+      color: #373737; 
+}
+ul li a:hover{
+    color: red;
+}
+.facebook{
+    margin-top: -830px;
+}
+.bg-img{
+    position: absolute;
+    top: 300px;
+    right: 0px;
+    z-index: -1;
+}
+.facebook{
+    position: relative;
+    top: 420px;
 }
