@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -12,4 +14,147 @@ a{
 .container{
     max-width: 1440px;
     margin:0 auto;
+}
+/* universiteis-section uchun stillar */
+.universiteis-section{
+
+background-color: #fafafa;
+
+}
+.universiteis h2{
+    padding-top: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Roboto;
+font-size: 23px;
+font-weight: 500;
+line-height: 26.95px;
+letter-spacing: 2.0999999046325684px;
+text-align: center;
+color: #373737;
+padding-bottom: 86px;
+
+opacity: 73%;
+
+}
+.universiteis ul li{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 104px;
+}
+.content{
+    text-align:  center;
+    padding-bottom: 57px;
+}
+/* servic section uchun stillar */
+.servic section{
+    background-color: #fafafa;
+}
+.servic h2{
+    padding-top: 122px;
+    text-align: center;
+    font-family: Roboto;
+font-size: 37px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: -0.4625000059604645px;
+text-align: center;
+padding-bottom: 25px;
+color: #373737;
+}
+.servic{
+    position: relative;
+}
+.servic p{
+    font-family: Roboto;
+font-size: 22px;
+font-weight: 500;
+line-height: 38px;
+text-align: center;
+color: #7D7D7D;
+padding-bottom: 110px;
+}
+.servic ul{
+   display: flex;
+ 
+   gap: 127px;
+   flex-wrap: wrap;
+}
+.servic ul li{
+ 
+width: 344px;
+
+border-radius: 10px;
+box-shadow: 0px 0px 77px 0px #0000000F;
+background-color:#ffffff
+
+
+
+
+}
+.servic ul li img{
+    padding-top: 29px;
+    padding-left: 31px;
+padding-bottom: 30px;
+}
+.servic ul li h3{
+    font-family: Roboto;
+font-size: 24px;
+font-weight: 700;
+line-height: 37px;
+color: #37474F;
+padding-left: 31px;
+padding-bottom: 9px;
+}
+.servic ul li p{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0.4444440007209778px;
+color: #37474FB8;
+padding-left: 25px;
+width: 297px;
+height: 90px;
+
+
+
+
+
+}
+.servic ul li a{
+    font-family: Roboto;
+font-size: 17px;
+font-weight: 700;
+line-height: 19.92px;
+letter-spacing: 0.4392859935760498px;
+text-align: center;
+color: #717CFF;
+padding-left: 36px;
+position: absolute;
+}
+
+.Counselling{
+ position: absolute;
+
+}
+.Counselling div{
+    display: flex;
+    align-items: center;
+}
+.content-roup{
+    display: flex;
+padding-left: 280px;
+gap: 127px;
+}
+.symbol{
+
+ margin-left: 120px;
+padding-top: 20px;
+color: #717CFF;
+
+}
+.servic ul li div{
+    display: flex;
+    align-items: center;
 }
